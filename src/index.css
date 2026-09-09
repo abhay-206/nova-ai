@@ -1992,7 +1992,7 @@ section {
   display: grid;
 
   grid-template-columns:
-    1.4fr
+    2fr
     1fr
     1fr
     1.3fr;
@@ -2061,7 +2061,7 @@ section {
 
 .footer-column h3,
 .footer-newsletter h3 {
-  margin: 0 0 20px;
+  margin: 20 10 10px;
 
   color: var(--text-primary);
 
@@ -2079,11 +2079,11 @@ section {
 .footer-link {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
 
   width: fit-content;
 
-  padding: 0;
+  padding: 0px;
 
   background: transparent;
   color: var(--text-muted);

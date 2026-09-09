@@ -5,10 +5,8 @@ const repoName = process.env.GITHUB_REPOSITORY?.split("/")[1];
 
 export default defineConfig({
   plugins: [react()],
-
-  // GitHub Pages needs the repository name as the base path.
-  // During local development this remains "/".
-  base: process.env.GITHUB_ACTIONS && repoName ? `/${repoName}/` : "/",
+  base: 
+  process.env.GITHUB_ACTIONS && repoName ? `/${repoName}/` : "/",
 
   server: {
     host: true,
